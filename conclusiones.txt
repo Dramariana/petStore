@@ -1,0 +1,34 @@
+# Conclusiones del Ejercicio
+
+## Hallazgos y Logros:
+
+Durante la realización del ejercicio de pruebas de servicios REST en la página https://petstore.swagger.io/ utilizando Cypress, se lograron alcanzar los objetivos propuestos:
+
+1. **Creación de Usuario:**
+   - Se implementó con éxito la prueba para la creación de un usuario, identificando las entradas necesarias y capturando las salidas correspondientes.
+
+2. **Búsqueda del Usuario Creado:**
+   - La prueba de búsqueda del usuario creado se realizó satisfactoriamente, validando la correcta funcionalidad del servicio.
+
+3. **Actualización de Nombre y Correo del Usuario:**
+   - A pesar de la limitación de la API que no admite operaciones de parcheo (PATCH), se logró realizar la actualización enviando nuevamente todos los datos necesarios.
+
+4. **Búsqueda del Usuario Actualizado:**
+   - La prueba para la búsqueda del usuario actualizado fue exitosa, confirmando que los cambios se reflejaron correctamente en la base de datos.
+
+5. **Eliminación del Usuario:**
+   - La prueba para la eliminación del usuario se implementó correctamente, asegurando que el servicio responda adecuadamente a la solicitud de eliminación.
+
+## Desafíos Superados:
+
+Este ejercicio me representó un desafío interesante debido a la novedad de trabajar con Cypress. Aunque previamente no había trabajado con Cypress ni Karate, el reciente curso de JavaScript facilitó el proceso de aprendizaje.
+
+## Experiencia y Satisfacción:
+
+Explorar y aplicar nuevas herramientas no solo enriqueció mis conocimientos y habilidades, sino que también representó una valiosa oportunidad de aprendizaje. Aunque fue necesario recurrir a documentación y videos para abordar el ejercicio, la satisfacción al completarlo fue bastante.Este desafío me recordo mi capacidad de adaptación y mi compromiso con el aprendizaje continuo.
+
+## Observaciones Específicas:
+
+Durante la actualización, se observó la necesidad de enviar todos los datos nuevamente debido a las limitaciones de la API que no permite operaciones de parcheo (PATCH). Específicamente, al actualizar solo el username y el correo electrónico, se requiere enviar solo esos campos con sus nuevos valores.
+
+En conclusión, el ejercicio no solo cumplió con los objetivos propuestos, sino que también proporcionó una plataforma valiosa para enfrentar nuevos desafíos y explorar herramientas emergentes en el campo de la automatización de pruebas de servicios REST.
